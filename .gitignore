@@ -27,6 +27,7 @@
 #
 
 # Delphi compiler-generated binaries (safe to delete)
+# **** Added Lazarus extensions to supplement the Delphi ones
 *.exe
 *.dll
 *.bpl
@@ -67,3 +68,5 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+backup/
+lib/

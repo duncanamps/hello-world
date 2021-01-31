@@ -1,0 +1,30 @@
+object frmHello: TfrmHello
+  Left = 316
+  Height = 133
+  Top = 154
+  Width = 400
+  Caption = 'Hello :)'
+  ClientHeight = 133
+  ClientWidth = 400
+  DesignTimePPI = 120
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 26
+    Height = 37
+    Top = 20
+    Width = 150
+    Caption = 'Hello World!'
+    Font.Height = -27
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnExit: TButton
+    Left = 23
+    Height = 31
+    Top = 75
+    Width = 94
+    Caption = 'Exit'
+    OnClick = btnExitClick
+    TabOrder = 0
+  end
+end
